@@ -74,7 +74,7 @@ const data = [
     {
         id: 13,
         title: "梅宇宙中，下列何者學歷最高",
-        option: ["賴小小", "金樽維(小)", "政喻", "紹新"],
+        option: ["賴小小", "金樽維(小)", "政諭", "紹新"],
         answer: "C",
     },
     {
@@ -299,6 +299,127 @@ const data = [
         option: ["HELLO KITTY", "大耳狗", "Q妞", "布丁狗"],
         answer: "A"
     },
+    {
+        id: 51,
+        title: "阿梅的第一次回歸時乖姨說了甚麼讓阿梅現身",
+        option: ["...北七", "...好噁", "是多愛我媽", "我覺得那隻貓死了"],
+        answer: "B"
+    },
+    {
+        id: 52,
+        title: "阿梅經典口頭禪",
+        option: ["靠靠北北", "幹破你娘", "破整庄", "以上皆是"],
+        answer: "D"
+    },
+    {
+        id: 53,
+        title: "對蹦的意思是",
+        option: ["喝咖啡", "出來灣家", "去夜店跳舞", "瑜珈球運動"],
+        answer: "B"
+    },
+    {
+        id: 54,
+        title: "挖塔下面的男主角是",
+        option: ["政諭", "小夜", "bkk", "金樽維(小)"],
+        answer: "A"
+    },
+    {
+        id: 55,
+        title: "乖姨來自哪個宇宙",
+        option: ["雞鴨宇宙", "梅宇宙", "慈慈宇宙", "以上皆非"],
+        answer: "A"
+    },
+    {
+        id: 56,
+        title: "阿梅在房東的房子做了甚麼?",
+        option: ["跳啞巴吹", "跟小武一起看書", "貓砂沖馬桶", "開兔兔小舖直播"],
+        answer: "C"
+    },
+    {
+        id: 57,
+        title: "下面哪位跟阿梅交往後沒有入獄",
+        option: ["小武", "小夜", "紹新", "以上皆非"],
+        answer: "C"
+    },
+    {
+        id: 58,
+        title: "下面哪位跟乖姨一起去警局要告梅後又龜縮回去",
+        option: ["bkk", "小夜", "紹新", "小慶"],
+        answer: "C"
+    },
+    {
+        id: 59,
+        title: "誰的屁股對8+9吸引力很大",
+        option: ["慈慈", "DJ妹", "芯喵喵", "147"],
+        answer: "A"
+    },
+    {
+        id: 60,
+        title: "阿梅的車_小藍車貸利息多少錢",
+        option: ["10萬", "12萬", "15萬", "20萬"],
+        answer: "D"
+    },
+    {
+        id: 61,
+        title: "阿梅的車_小藍代款保人是誰",
+        option: ["金樽維(小)", "仁仁", "bkk", "政諭"],
+        answer: "D"
+    },
+    {
+        id: 62,
+        title: "哪隻倒梅狗被阿梅買回樓後眼神越來越無光",
+        option: ["Q咘", "Q希", "Q菈", "迪迪"],
+        answer: "B"
+    },
+    {
+        id: 63,
+        title: "牛肉乾狗是?",
+        option: ["比熊", "臘腸", "貴賓狗", "柯基"],
+        answer: "C"
+    },
+    {
+        id: 64,
+        title: "阿梅的粉絲們自稱為",
+        option: ["兔家軍", "兔梅粉", "黑梅粉", "兔兔粉"],
+        answer: "A"
+    },
+    {
+        id: 65,
+        title: "阿梅有下列哪張獎狀",
+        option: ["台語演講", "數理競賽", "寫作比賽", "國語演講"],
+        answer: "A"
+    },
+    {
+        id: 66,
+        title: "阿梅跟小慶在哪認識的",
+        option: ["大甲媽", "餐廳", "夜店", "KTV"],
+        answer: "C"
+    },
+    {
+        id: 67,
+        title: "小夜的本名是?",
+        option: ["楊承翰", "胡伯誠", "謝政諭", "呂紹新"],
+        answer: "A"
+    },
+    {
+        id: 68,
+        title: "小武本名",
+        option: ["楊承翰", "胡伯誠", "謝政諭", "呂紹新"],
+        answer: "B"
+    },
+    {
+        id: 69,
+        title: "Q新本名",
+        option: ["楊承翰", "胡伯誠", "謝政諭", "呂紹新"],
+        answer: "D"
+    },
+    {
+        id: 70,
+        title: "蒸魚本名",
+        option: ["楊承翰", "胡伯誠", "謝政諭", "呂紹新"],
+        answer: "C"
+    },
+    
 ];
 const topic_exist = new Array(data.length).fill(false);
 const topic = new Array();
@@ -310,9 +431,9 @@ const SectionTopic = document.querySelector(".inner-section");
 
 const SetTopic = ()=>{
     for (var i = 0; i < 25; i++) {
-        let n = Math.floor((Math.random() * 50) + 1);
+        let n = Math.floor((Math.random() * 70) + 1);
         while (topic_exist[n] == true) {
-            n = Math.floor((Math.random() * 50) + 1);
+            n = Math.floor((Math.random() * 70) + 1);
         }
     
         topic_exist[n] = true;
