@@ -430,7 +430,7 @@ const SectionTopic = document.querySelector(".inner-section");
 
 
 const SetTopic = ()=>{
-    for (var i = 0; i < 25; i++) {
+    for (var i = 0; i < 20; i++) {
         let n = Math.floor((Math.random() * 70) + 1);
         while (topic_exist[n] == true) {
             n = Math.floor((Math.random() * 70) + 1);
@@ -501,15 +501,15 @@ YourAnswer.forEach((answer) => {
     answer.addEventListener('click', (e) => {
         console.log('123');
         if (e.currentTarget.classList.contains(topic[count].answer)) {
-            grade += 4;
+            grade += 5;
             FixAnswer(true);
         }
         else{
             FixAnswer(false);
         }
         count++;
-        if (count < 25) {
-            YourGrade.textContent = "共 25 題,目前做到第 " + (count + 1) + "題,總共得分:" + grade;
+        if (count < 20) {
+            YourGrade.textContent = "共 20 題,目前做到第 " + (count + 1) + "題,總共得分:" + grade;
             Title.textContent = topic[count].id + "." + topic[count].title;
             YourAnswer.forEach((item, index) => {
                 if (index == 0) {
