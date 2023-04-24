@@ -455,7 +455,7 @@ const ReTopic = () => {
         <button class="option B">(B) ${topic[count].option[1]}</button>
         <button class="option C">(C) ${topic[count].option[2]}</button>
         <button class="option D">(D) ${topic[count].option[3]}</button>
-        <h3 class="grade">共 25 題,目前做到第 1 題,總共得分:0</h3>`;
+        <h3 class="grade">共 20 題,目前做到第 1 題,總共得分:0</h3>`;
 };
 
 const fix = document.querySelector('.fail');
