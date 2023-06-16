@@ -1,423 +1,434 @@
 const data = [
     {
         id: 1,
-        title: "阿梅的生日是",
-        option: ["11/22", "11/26", "11/28", "11/29"],
+        title: "majority",
+        option: ["地點", "多數", "自然", "藝術家"],
         answer: "B"
     },
     {
         id: 2,
-        title: "Q家族貴賓狗,不包括:",
-        option: ["Q妞", "Q比", "Q寶", "Q新"],
+        title: "position",
+        option: ["桌遊", "心靈的", "周圍", "地點"],
         answer: "D"
     },
     {
         id: 3,
-        title: "使用IG到此帳號qmeimei20170307,你可以查看",
-        option: ["彰化媽祖婆", "吳梅菁", "沈沁玹", "以上皆是"],
+        title: "engaged",
+        option: ["交談", "海軍", "垃圾", "結婚"],
         answer: "D"
     },
     {
         id: 4,
-        title: "關於仁仁的敘述何者錯誤",
-        option: ["是個律師", "深患殘疾", "差一分上台大", "外號'Q仁'"],
+        title: "board game",
+        option: ["桌遊", "探索", "心靈", "自然"],
         answer: "A"
     },
     {
         id: 5,
-        title: "有先見之明離家出走的狗,是?",
-        option: ["Q妞", "Q希", "Q寶", "Q咘"],
+        title: "nature",
+        option: ["自然", "名聲", "導遊", "寺廟"],
         answer: "A"
     },
     {
         id: 6,
-        title: "阿梅會在7-11做甚麼?",
-        option: ["摸摸", "買阿華田", "請人去整形", "以上皆是"],
+        title: "artist",
+        option: ["應得", "名聲", "雇用", "藝術家"],
         answer: "D"
     },
     {
         id: 7,
-        title: "下列何者未與阿梅交往過?",
-        option: ["小夜", "小武", "小慶", "賴小小"],
+        title: "local",
+        option: ["自然", "極好", "當地", "地點"],
         answer: "C"
     },
     {
         id: 8,
-        title: "下列何事件時間線最早?",
-        option: ["愛上表叔", "貝殼內衣啞巴吹", "和美里事件", "跟小武結婚"],
+        title: "reputation",
+        option: ["名聲", "旅遊", "事件", "結婚"],
         answer: "A"
     },
     {
         id: 9,
-        title: "阿梅的戶頭剩多少錢?(再領普前)",
-        option: ["158", "258", "358", "600"],
+        title: "lawyer",
+        option: ["探索", "律師", "難忘", "目的地"],
         answer: "B"
     },
     {
         id: 10,
-        title: "阿梅某年生日派對辦在?",
-        option: ["築間", "建國路9號", "悅河精品旅館", "KTV"],
+        title: "own",
+        option: ["偷看", "山谷", "擁有", "桌遊"],
         answer: "C",
     },
     {
         id: 11,
-        title: "147的外號何者有誤",
-        option: ["普信龍", "親家母", "漂亮公主", "芯喵喵的女兒"],
+        title: "deserve",
+        option: ["指引", "探索", "應得", "兒子"],
         answer: "C",
     },
     {
         id: 12,
-        title: "147號稱體重?",
-        option: ["55", "100", "147", "80"],
+        title: "publish",
+        option: ["公布", "擁有", "結婚", "地點"],
         answer: "A",
     },
     {
         id: 13,
-        title: "梅宇宙中，下列何者學歷最高",
-        option: ["賴小小", "金樽維(小)", "政諭", "紹新"],
+        title: "settle",
+        option: ["自然", "拋棄", "安放", "偷看"],
         answer: "C",
     },
     {
         id: 14,
-        title: "哪一個不是呂紹新的暱稱?",
-        option: ["越南寶特瓶", "射匯人", "梅有想睡", "新寶"],
+        title: "absence",
+        option: ["拋棄", "衛星", "跳過", "缺席"],
         answer: "D",
     },
     {
         id: 15,
-        title: "阿梅的皮草多少錢",
-        option: ["1000", "1280", "12800", "399"],
+        title: "unfortunately",
+        option: ["難忘的", "高興的", "不幸的", "敬佩的"],
         answer: "C",
     },
     {
         id: 16,
-        title: "小夜養的狗是?",
-        option: ["柴犬", "法鬥", "臘腸", "柯基"],
+        title: "disappear",
+        option: ["快速", "出現", "探索", "消失"],
         answer: "D",
     },
     {
         id: 17,
-        title: "某姊妹回鍋離婚群時用哪句話釣出淺水阿梅",
-        option: ["幹破你娘", "寵物殺手", "你出來我1禮拜不罵你", "她又到處睡"],
+        title: "eager",
+        option: ["拋棄", "快樂的", "不幸的", "熱切的"],
         answer: "D",
     },
     {
         id: 18,
-        title: "下列哪位ㄓㄣ沒有出現過",
-        option: ["溱", "蓁", "榛", "臻"],
+        title: "descendant",
+        option: ["後代", "探索", "桌遊", "自然"],
         answer: "A"
     },
     {
         id: 19,
-        title: "芯喵喵的口頭禪不是",
-        option: ["心疼可以贊助", "我要去工作了", "#不是免費", "可以不要看"],
+        title: "odd",
+        option: ["增加", "奇怪的", "#免費", "可以"],
         answer: "B"
     },
     {
         id: 20,
-        title: "阿梅做過的工作下列何者錯誤",
-        option: ["兔兔小舖老闆娘", "酒店", "小護士", "經紀"],
+        title: "identical",
+        option: ["未知", "相反", "相同", "文明"],
         answer: "C"
     },
     {
         id: 21,
-        title: "阿梅就讀哪個大學",
-        option: ["建國", "大葉", "彰師", "梅讀大學"],
+        title: "hostile",
+        option: ["敵方", "故意", "相同", "文明"],
         answer: "A"
     },
     {
         id: 22,
-        title: "誰是禿頭",
-        option: ["小武", "小夜", "小慶", "房東"],
+        title: "deliberate",
+        option: ["恢復", "缺席", "拋棄", "故意"],
         answer: "D"
     },
     {
         id: 23,
-        title: "哪隻狗最邪氣",
-        option: ["Q咩", "Q妞", "Q寶", "Q希"],
+        title: "colony",
+        option: ["殖民", "恢復", "拋棄", "探索"],
         answer: "A"
     },
     {
         id: 24,
-        title: "最寵粉的人,是",
-        option: ["Q新", "147", "賴小小", "小夜"],
+        title: "compare",
+        option: ["敬佩", "谷", "公司", "比較/對照"],
         answer: "D"
     },
     {
         id: 25,
-        title: "哪一個群組送了阿梅花籃",
-        option: ["離婚群", "悅河群", "蛇群", "兔兔粉絲團"],
+        title: "human",
+        option: ["狗", "人", "蛇", "兔兔"],
         answer: "B"
     },
     {
         id: 26,
-        title: "阿梅想要去哪個國家就讀碩士",
-        option: ["加拿大", "日本", "澳洲", "紐西蘭"],
+        title: "judgment",
+        option: ["森林", "發現", "探索", "判斷"],
         answer: "D"
     },
     {
         id: 27,
-        title: "阿梅買了甚麼去給小武探監並請求復婚",
-        option: ["麥當勞", "熱炒", "會客菜", "肯德基"],
+        title: "critic",
+        option: ["評論家", "藝術家", "文明", "指引"],
         answer: "A"
     },
     {
         id: 28,
-        title: "小武入獄服刑前幾公斤?",
-        option: ["80", "60", "61", "90"],
+        title: "take into account",
+        option: ["偷看", "訓練", "考慮到", "難忘"],
         answer: "C"
     },
     {
         id: 29,
-        title: "阿梅稱小武何時出獄",
-        option: ["2026", "2025", "2028", "2036"],
+        title: "attention",
+        option: ["注意", "遺忘", "導覽", "中央"],
         answer: "A"
     },
     {
         id: 30,
-        title: "慈慈幾歲生小孩",
-        option: ["13", "14", "12", "11"],
+        title: "meditation",
+        option: ["沉思", "訓練", "好轉", "工具"],
         answer: "A"
     },
     {
         id: 31,
-        title: "慈慈的小孩叫?",
-        option: ["圓圓", "球球", "寶寶", "小寶"],
+        title: "cure",
+        option: ["垃圾", "好轉", "不幸", "難忘"],
         answer: "B"
     },
     {
         id: 32,
-        title: "慈慈曾經用甚麼在路口爆打他人",
-        option: ["拳頭", "水壺", "安全帽", "包包"],
+        title: "alert",
+        option: ["旅遊", "水壺", "警惕", "訓練"],
         answer: "C"
     },
     {
         id: 33,
-        title: "阿梅最主要的工作是?",
-        option: ["獵奶狗", "跟Q仁要錢", "在IG發一堆語錄", "以上皆是"],
+        title: "objective",
+        option: ["寺廟", "自然", "地區", "目標、客觀"],
         answer: "D"
     },
     {
         id: 34,
-        title: "那一個不是梅宇宙的特色?",
-        option: ["都是8+9", "男人來的快去也快", "每次都會改過自新", "女生通常都會反目成仇"],
+        title: "religion",
+        option: ["天堂", "目標", "宗教", "人"],
         answer: "C"
     },
     {
         id: 35,
-        title: "籽魚曾經的男友是哪位?",
-        option: ["哈麥二齒", "賀哥", "邱比特", "bkk"],
+        title: "spiritual",
+        option: ["心靈的", "好轉", "警惕", "奇怪"],
         answer: "A"
     },
     {
         id: 36,
-        title: "梅菁曾用甚麼東西來自殘",
-        option: ["沐浴乳", "充電線", "咖啡包", "以上皆是"],
+        title: "breathing",
+        option: ["垃圾", "探索", "目標", "呼吸"],
         answer: "D"
     },
     {
         id: 37,
-        title: "小武的媽媽是?",
-        option: ["胡佳琳", "胡佳琦", "潘信孝", "胡心婷"],
+        title: "marine",
+        option: ["大氣層", "adj.海洋/n.海軍", "呼吸", "宗教"],
         answer: "B"
     },
     {
         id: 38,
-        title: "阿梅沒有養過哪種動物?",
-        option: ["貓", "狗", "老鼠", "鳥"],
+        title: "atmosphere",
+        option: ["缺席", "應得", "寺廟", "大氣層"],
         answer: "D"
     },
     {
         id: 39,
-        title: "147被留下爆龍，超爆龍的評論是在?",
-        option: ["寧夏夜市", "士林夜市", "中壢夜市", "饒河夜市"],
+        title: "region",
+        option: ["地點", "地區", "中央", "當地"],
         answer: "B"
     },
     {
         id: 40,
-        title: "下列何者不是阿梅與小夜時期發生的故事?",
-        option: ["十包打底", "騙朋友喝咖啡", "扛點滴逃跑", "喝沐浴乳"],
+        title: "paradise",
+        option: ["應得", "天堂", "寺廟", "當地"],
         answer: "B"
     },
     {
         id: 41,
-        title: "畢旅妹跟誰發生了牙刷事件?",
-        option: ["熊", "賀哥", "假韓", "富善宇"],
+        title: "surroundings",
+        option: ["雇用", "多數", "周圍", "觀光"],
         answer: "C"
     },
     {
         id: 42,
-        title: "甚麼東西要分開算",
-        option: ["陽春麵", "金莎", "阿華田", "肉圓"],
+        title: "conservation",
+        option: ["對話/交談", "周圍", "推薦", "客人"],
         answer: "A"
     },
     {
         id: 43,
-        title: "阿梅不會出現在?",
-        option: ["紐西蘭", "夜店", "建國學餐", "監獄"],
+        title: "recommend",
+        option: ["推薦", "自然", "缺席", "未知"],
         answer: "A"
     },
     {
         id: 44,
-        title: "阿梅喜歡的類型",
-        option: ["奶狗", "8+9", "有爸爸感覺的人", "以上皆是"],
+        title: "litter",
+        option: ["導覽", "工具", "客人", "垃圾"],
         answer: "D"
     },
     {
         id: 45,
-        title: "阿梅復婚不成做了甚麼事",
-        option: ["燒假的結婚證書", "踢燒金紙的桶子", "跑去夜店釣奶狗", "以上皆是"],
+        title: "guest",
+        option: ["婚證", "猜測", "訓練", "客人"],
         answer: "D"
     },
     {
         id: 46,
-        title: "阿梅有對Q新說過以下哪句話?",
-        option: ["黑死!外翻!", "先去整形好不好", "長那醜逼樣", "拍謝 我有D"],
+        title: "contaminate",
+        option: ["汙染", "公司", "對照", "工具"],
         answer: "A"
     },
     {
         id: 47,
-        title: "阿梅自稱自己有",
-        option: ["C", "B", "D", "E"],
+        title: "tourist",
+        option: ["目的地", "中央", "觀光客", "旅遊"],
         answer: "C"
     },
     {
         id: 48,
-        title: "阿梅曾經拿了一疊A4紙到警局告那裡的吃瓜姊妹?",
-        option: ["離婚群", "聖母梅群", "Dcard", "麻糬群"],
+        title: "laid-back",
+        option: ["不幸的", "難忘的", "悠閒/舒服的", "極好的"],
         answer: "C"
     },
     {
         id: 49,
-        title: "147號稱有超大粉色器官且有割包皮的人是",
-        option: ["羽球男", "雙魚男", "阿輝", "阿堂"],
+        title: "tour",
+        option: ["目的地", "旅遊", "觀光客", "導覽"],
         answer: "D"
     },
     {
         id: 50,
-        title: "阿梅的第一個刺青是",
-        option: ["HELLO KITTY", "大耳狗", "Q妞", "布丁狗"],
+        title: "excellent",
+        option: ["極好的", "不幸的", "難忘的", "舒服的"],
         answer: "A"
     },
     {
         id: 51,
-        title: "阿梅的第一次回歸時乖姨說了甚麼讓阿梅現身",
-        option: ["...北七", "...好噁", "是多愛我媽", "我覺得那隻貓死了"],
+        title: "explore",
+        option: ["旅遊", "探索", "自然", "導覽"],
         answer: "B"
     },
     {
         id: 52,
-        title: "阿梅經典口頭禪",
-        option: ["靠靠北北", "幹破你娘", "破整庄", "以上皆是"],
+        title: "peak",
+        option: ["探索", "導覽", "公園", "偷看"],
         answer: "D"
     },
     {
         id: 53,
-        title: "對蹦的意思是",
-        option: ["喝咖啡", "出來灣家", "去夜店跳舞", "瑜珈球運動"],
+        title: "valley",
+        option: ["海洋", "谷", "文明", "塔"],
         answer: "B"
     },
     {
         id: 54,
-        title: "挖塔下面的男主角是",
-        option: ["政諭", "小夜", "bkk", "金樽維(小)"],
+        title: "Central",
+        option: ["中央", "塔", "文明", "清單"],
         answer: "A"
     },
     {
         id: 55,
-        title: "乖姨來自哪個宇宙",
-        option: ["雞鴨宇宙", "梅宇宙", "慈慈宇宙", "以上皆非"],
+        title: "destination",
+        option: ["目的地", "宇宙", "探索", "缺席"],
         answer: "A"
     },
     {
         id: 56,
-        title: "阿梅在房東的房子做了甚麼?",
-        option: ["跳啞巴吹", "跟小武一起看書", "貓砂沖馬桶", "開兔兔小舖直播"],
+        title: "unforgettable",
+        option: ["難忘的", "不幸的", "難忘的", "古老的"],
         answer: "C"
     },
     {
         id: 57,
-        title: "下面哪位跟阿梅交往後沒有入獄",
-        option: ["小武", "小夜", "紹新", "以上皆非"],
+        title: "journey",
+        option: ["導覽", "探索", "旅遊", "觀光客"],
         answer: "C"
     },
     {
         id: 58,
-        title: "下面哪位跟乖姨一起去警局要告梅後又龜縮回去",
-        option: ["bkk", "小夜", "紹新", "小慶"],
+        title: "guide",
+        option: ["塔", "導覽", "指引", "旅遊"],
         answer: "C"
     },
     {
         id: 59,
-        title: "誰的屁股對8+9吸引力很大",
-        option: ["慈慈", "DJ妹", "芯喵喵", "147"],
+        title: "gear",
+        option: ["齒輪/工具", "垃圾", "藝術家", "律師"],
         answer: "A"
     },
     {
         id: 60,
-        title: "阿梅的車_小藍車貸利息多少錢",
-        option: ["10萬", "12萬", "15萬", "20萬"],
+        title: "training",
+        option: ["公布", "跳過", "恢復", "訓練"],
         answer: "D"
     },
     {
         id: 61,
-        title: "阿梅的車_小藍代款保人是誰",
-        option: ["金樽維(小)", "仁仁", "bkk", "政諭"],
+        title: "temple",
+        option: ["當地", "地點", "谷", "節奏/寺廟"],
         answer: "D"
     },
     {
         id: 62,
-        title: "哪隻倒梅狗被阿梅買回樓後眼神越來越無光",
-        option: ["Q咘", "Q希", "Q菈", "迪迪"],
+        title: "tower",
+        option: ["寺廟", "塔", "擁有", "廁所"],
         answer: "B"
     },
     {
         id: 63,
-        title: "牛肉乾狗是?",
-        option: ["比熊", "臘腸", "貴賓狗", "柯基"],
+        title: "ancient",
+        option: ["拋棄", "藝術家", "古老的", "缺席"],
         answer: "C"
     },
     {
         id: 64,
-        title: "阿梅的粉絲們自稱為",
-        option: ["兔家軍", "兔梅粉", "黑梅粉", "兔兔粉"],
+        title: "satellite",
+        option: ["人造衛星", "應得", "後代", "安放"],
         answer: "A"
     },
     {
         id: 65,
-        title: "阿梅有下列哪張獎狀",
-        option: ["台語演講", "數理競賽", "寫作比賽", "國語演講"],
+        title: "abandon",
+        option: ["拋棄", "競賽", "古老", "缺席"],
         answer: "A"
     },
     {
         id: 66,
-        title: "阿梅跟小慶在哪認識的",
-        option: ["大甲媽", "餐廳", "夜店", "KTV"],
+        title: "rediscover",
+        option: ["遺忘", "恢復", "重新發現", "相同"],
         answer: "C"
     },
     {
         id: 67,
-        title: "小夜的本名是?",
-        option: ["楊承翰", "胡伯誠", "謝政諭", "呂紹新"],
+        title: "list",
+        option: ["清單/明細", "發票", "殖民", "擁有"],
         answer: "A"
     },
     {
         id: 68,
-        title: "小武本名",
-        option: ["楊承翰", "胡伯誠", "謝政諭", "呂紹新"],
+        title: "economy",
+        option: ["周圍", "經濟", "汙染", "大氣層"],
         answer: "B"
     },
     {
         id: 69,
-        title: "Q新本名",
-        option: ["楊承翰", "胡伯誠", "謝政諭", "呂紹新"],
+        title: "pass",
+        option: ["垃圾", "狗", "貓咪", "跳過"],
         answer: "D"
     },
     {
         id: 70,
-        title: "蒸魚本名",
-        option: ["楊承翰", "胡伯誠", "謝政諭", "呂紹新"],
+        title: "restore",
+        option: ["重新發現", "天堂", "恢復", "旅遊"],
         answer: "C"
+    },
+    {
+        id: 71,
+        title: "civilization",
+        option: ["恢復", "人造衛星", "文明", "殖民"],
+        answer: "C"
+    },{
+        id: 72,
+        title: "respect",
+        option: ["重新發現", "敬佩", "恢復", "汙染"],
+        answer: "B"
     },
     
 ];
@@ -430,10 +441,10 @@ const SectionTopic = document.querySelector(".inner-section");
 
 
 const SetTopic = ()=>{
-    for (var i = 0; i < 20; i++) {
-        let n = Math.floor((Math.random() * 70) + 1);
+    for (var i = 0; i < 50; i++) {
+        let n = Math.floor((Math.random() * 72) + 1);
         while (topic_exist[n] == true) {
-            n = Math.floor((Math.random() * 70) + 1);
+            n = Math.floor((Math.random() * 72) + 1);
         }
     
         topic_exist[n] = true;
@@ -455,7 +466,7 @@ const ReTopic = () => {
         <button class="option B">(B) ${topic[count].option[1]}</button>
         <button class="option C">(C) ${topic[count].option[2]}</button>
         <button class="option D">(D) ${topic[count].option[3]}</button>
-        <h3 class="grade">共 20 題,目前做到第 1 題,總共得分:0</h3>`;
+        <h3 class="grade">共 50 題,目前做到第 1 題,總共得分:0</h3>`;
 };
 
 const fix = document.querySelector('.fail');
@@ -501,7 +512,7 @@ YourAnswer.forEach((answer) => {
     answer.addEventListener('click', (e) => {
         console.log('123');
         if (e.currentTarget.classList.contains(topic[count].answer)) {
-            grade += 5;
+            grade += 2;
             FixAnswer(true);
         }
         else{
@@ -509,7 +520,7 @@ YourAnswer.forEach((answer) => {
         }
         count++;
         if (count < 20) {
-            YourGrade.textContent = "共 20 題,目前做到第 " + (count + 1) + "題,總共得分:" + grade;
+            YourGrade.textContent = "共 50 題,目前做到第 " + (count + 1) + "題,總共得分:" + grade;
             Title.textContent = topic[count].id + "." + topic[count].title;
             YourAnswer.forEach((item, index) => {
                 if (index == 0) {
